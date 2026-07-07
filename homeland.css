@@ -102,6 +102,7 @@ nav a.active {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -227,13 +228,16 @@ nav a.active {
     .hero-section {
         padding: 20px 40px;
     }
+
     nav {
         gap: 25px;
         font-size: 14px;
     }
+
     .property-address {
         font-size: 36px;
     }
+
     .property-price {
         font-size: 32px;
     }
@@ -503,6 +507,7 @@ nav a.active {
     display: flex;
     gap: 8px;
 }
+
 .tab-btn {
     padding: 6px 24px 6px 18px;
     border: none;
@@ -567,9 +572,11 @@ nav a.active {
         padding: 0 30px 40px 30px;
         margin-top: -40px;
     }
+
     .listing-container {
         padding: 30px 25px;
     }
+
     .listing-bottom {
         padding: 15px 25px 0 25px;
     }
@@ -580,21 +587,26 @@ nav a.active {
         padding: 0 20px 30px 20px;
         margin-top: -30px;
     }
+
     .listing-container {
         padding: 25px 20px;
     }
+
     .listing-filters {
         flex-direction: column;
         align-items: stretch;
         gap: 12px;
     }
+
     .filter-group {
         min-width: 100%;
     }
+
     .search-btn {
         width: 100%;
         height: 44px;
     }
+
     .listing-bottom {
         flex-direction: column;
         align-items: stretch;
@@ -602,25 +614,30 @@ nav a.active {
         padding: 15px 20px 0 20px;
         margin-top: 1px;
     }
+
     .listing-layout {
         justify-content: center;
     }
+
     .listing-right {
         flex-direction: column;
         align-items: center;
         gap: 12px;
         width: 100%;
     }
+
     .listing-tabs {
         width: 100%;
         justify-content: center;
     }
+
     .tab-btn {
         flex: 1;
         text-align: center;
         padding: 6px 15px;
         font-size: 12px;
     }
+
     .listing-sort {
         width: 100%;
         justify-content: center;
@@ -632,30 +649,37 @@ nav a.active {
         padding: 0 15px 20px 15px;
         margin-top: -20px;
     }
+
     .listing-container {
         padding: 20px 15px;
         border-radius: 15px;
     }
+
     .filter-group select {
         padding: 9px 14px;
         font-size: 13px;
     }
+
     .search-btn {
         padding: 10px 20px;
         font-size: 13px;
         height: 42px;
     }
+
     .listing-bottom {
         padding: 15px 15px 0 15px;
     }
+
     .tab-btn {
         padding: 5px 12px;
         font-size: 11px;
     }
+
     .listing-sort select {
         font-size: 12px;
         padding: 5px 25px 5px 12px;
     }
+
     .layout-btn {
         width: 32px;
         height: 32px;
@@ -821,6 +845,7 @@ nav a.active {
     .property-cards-section {
         padding: 30px 30px 40px 30px;
     }
+
     .property-cards-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
@@ -831,19 +856,24 @@ nav a.active {
     .property-cards-section {
         padding: 20px 20px 30px 20px;
     }
+
     .property-cards-container {
         grid-template-columns: 1fr;
         gap: 20px;
     }
+
     .card-image {
         height: 180px;
     }
+
     .card-address {
         font-size: 16px;
     }
+
     .card-price {
         font-size: 20px;
     }
+
     .card-details {
         gap: 20px;
     }
@@ -853,30 +883,39 @@ nav a.active {
     .property-cards-section {
         padding: 15px 15px 20px 15px;
     }
+
     .card-image {
         height: 160px;
     }
+
     .card-content {
         padding: 14px 16px 18px 16px;
     }
+
     .card-address {
         font-size: 15px;
     }
+
     .card-price {
         font-size: 18px;
     }
+
     .card-details {
         gap: 15px;
     }
+
     .detail-value {
         font-size: 14px;
     }
+
     .card-location {
         font-size: 12px;
     }
+
     .card-tags {
         gap: 5px;
     }
+
     .card-tag {
         font-size: 10px;
         padding: 4px 12px;
@@ -909,7 +948,8 @@ nav a.active {
     align-items: center;
     justify-content: center;
 }
-.page-btn-dots{
+
+.page-btn-dots {
     width: 40px;
     height: 40px;
     border: none;
@@ -950,13 +990,13 @@ nav a.active {
         margin-top: 30px;
         flex-wrap: wrap;
     }
-    
+
     .page-btn {
         width: 35px;
         height: 35px;
         font-size: 12px;
     }
-    
+
     .page-btn.next {
         width: 35px;
         height: 35px;
@@ -969,14 +1009,14 @@ nav a.active {
         gap: 4px;
         margin-top: 25px;
     }
-    
+
     .page-btn {
         width: 30px;
         height: 30px;
         font-size: 11px;
         border-radius: 6px;
     }
-    
+
     .page-btn.next {
         width: 30px;
         height: 30px;
@@ -1036,6 +1076,7 @@ nav a.active {
     transition: 0.3s;
     /* border: 1px solid #f0f0f5; */
 }
+
 .choose-icon {
     width: 70px;
     height: 70px;
@@ -1049,6 +1090,7 @@ nav a.active {
     margin: 0 auto 18px auto;
     transition: 0.3s;
 }
+
 .choose-card h3 {
     font-size: 22px;
     font-weight: 400;
@@ -1074,11 +1116,13 @@ nav a.active {
     border-bottom: 2px solid transparent;
     padding-bottom: 2px;
 }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
     .choose-section {
         padding: 50px 30px 60px 30px;
     }
+
     .choose-grid {
         gap: 25px;
     }
@@ -1088,22 +1132,22 @@ nav a.active {
     .choose-section {
         padding: 40px 20px 50px 20px;
     }
-    
+
     .choose-grid {
         grid-template-columns: 1fr;
         gap: 20px;
         max-width: 500px;
         margin: 0 auto;
     }
-    
+
     .choose-header h2 {
         font-size: 28px;
     }
-    
+
     .choose-header p {
         font-size: 14px;
     }
-    
+
     .choose-card {
         padding: 30px 20px 25px 20px;
     }
@@ -1113,23 +1157,23 @@ nav a.active {
     .choose-section {
         padding: 30px 15px 40px 15px;
     }
-    
+
     .choose-header h2 {
         font-size: 24px;
     }
-    
+
     .choose-header p {
         font-size: 13px;
     }
-    
+
     .choose-card h3 {
         font-size: 16px;
     }
-    
+
     .choose-card p {
         font-size: 13px;
     }
-    
+
     .choose-icon {
         width: 60px;
         height: 60px;
@@ -1306,6 +1350,7 @@ nav a.active {
     .blog-section {
         padding: 50px 30px 60px 30px;
     }
+
     .blog-grid {
         gap: 25px;
     }
@@ -1315,22 +1360,22 @@ nav a.active {
     .blog-section {
         padding: 40px 20px 50px 20px;
     }
-    
+
     .blog-grid {
         grid-template-columns: 1fr;
         gap: 25px;
         max-width: 500px;
         margin: 0 auto;
     }
-    
+
     .blog-header h2 {
         font-size: 28px;
     }
-    
+
     .blog-header p {
         font-size: 14px;
     }
-    
+
     .blog-image {
         height: 200px;
     }
@@ -1338,9 +1383,11 @@ nav a.active {
     .blog-card:nth-child(1) {
         transition-delay: 0.05s;
     }
+
     .blog-card:nth-child(2) {
         transition-delay: 0.15s;
     }
+
     .blog-card:nth-child(3) {
         transition-delay: 0.25s;
     }
@@ -1350,37 +1397,38 @@ nav a.active {
     .blog-section {
         padding: 30px 15px 40px 15px;
     }
-    
+
     .blog-header h2 {
         font-size: 24px;
     }
-    
+
     .blog-header p {
         font-size: 13px;
     }
-    
+
     .blog-content h3 {
         font-size: 15px;
     }
-    
+
     .blog-content p {
         font-size: 13px;
     }
-    
+
     .blog-image {
         height: 180px;
     }
-    
+
     .date-day {
         font-size: 20px;
     }
 }
+
 /* ===== ANIMATION STYLES ===== */
 .animate-on-scroll {
     opacity: 0;
     transform: translateY(60px);
-    transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
-                transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+        transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .animate-on-scroll.visible {
@@ -1400,6 +1448,7 @@ nav a.active {
 .blog-card:nth-child(3).animate-on-scroll {
     transition-delay: 0.5s;
 }
+
 /* TEST - Force cards visible */
 .animate-on-scroll {
     opacity: 1 !important;
@@ -1520,11 +1569,13 @@ nav a.active {
     font-size: 15px;
     transition: 0.3s;
 }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
     .agents-section {
         padding: 50px 30px 60px 30px;
     }
+
     .agents-grid {
         gap: 25px;
     }
@@ -1534,22 +1585,22 @@ nav a.active {
     .agents-section {
         padding: 40px 20px 50px 20px;
     }
-    
+
     .agents-grid {
         grid-template-columns: 1fr;
         gap: 25px;
         max-width: 400px;
         margin: 0 auto;
     }
-    
+
     .agents-header h2 {
         font-size: 28px;
     }
-    
+
     .agents-header p {
         font-size: 14px;
     }
-    
+
     .agent-image {
         height: 250px;
     }
@@ -1559,33 +1610,33 @@ nav a.active {
     .agents-section {
         padding: 30px 15px 40px 15px;
     }
-    
+
     .agents-header h2 {
         font-size: 24px;
     }
-    
+
     .agents-header p {
         font-size: 13px;
     }
-    
+
     .agent-info h3 {
         font-size: 18px;
     }
-    
+
     .agent-description {
         font-size: 13px;
     }
-    
+
     .agent-image {
         height: 220px;
     }
-    
+
     .agent-social a {
         width: 36px;
         height: 36px;
         font-size: 13px;
     }
-    
+
     .agent-social {
         gap: 10px;
     }
@@ -1722,6 +1773,7 @@ nav a.active {
         padding: 60px 40px 30px 40px;
         min-height: auto;
     }
+
     .footer-grid {
         gap: 40px;
     }
@@ -1732,25 +1784,25 @@ nav a.active {
         padding: 50px 25px 25px 25px;
         min-height: auto;
     }
-    
+
     .footer-grid {
         grid-template-columns: 1fr;
         gap: 35px;
         text-align: center;
     }
-    
+
     .heading-line {
         margin: 0 auto 20px auto;
     }
-    
+
     .footer-col p {
         text-align: center;
     }
-    
+
     .footer-social {
         justify-content: center;
     }
-    
+
     .footer-links {
         grid-template-columns: 1fr 1fr;
         max-width: 400px;
@@ -1758,7 +1810,7 @@ nav a.active {
         gap: 6px 20px;
         text-align: center;
     }
-    
+
     .footer-links li {
         text-align: center;
     }
@@ -1769,42 +1821,42 @@ nav a.active {
         padding: 40px 15px 20px 15px;
         min-height: auto;
     }
-    
+
     .footer-col h3 {
         font-size: 16px;
         margin-bottom: 6px;
     }
-    
+
     .heading-line {
         width: 30px;
         height: 2px;
         margin: 0 auto 16px auto;
     }
-    
+
     .footer-col p {
         font-size: 13px;
         line-height: 1.7;
     }
-    
+
     .footer-links {
         grid-template-columns: 1fr 1fr;
         gap: 4px 15px;
     }
-    
+
     .footer-links a {
         font-size: 13px;
     }
-    
+
     .footer-social a {
         width: 38px;
         height: 38px;
         font-size: 14px;
     }
-    
+
     .footer-social {
         gap: 10px;
     }
-    
+
     .footer-bottom p {
         font-size: 12px;
     }
@@ -1856,6 +1908,7 @@ nav a.active {
     margin-bottom: 16px;
     letter-spacing: 1px;
 }
+
 .company-subtext {
     font-size: 18px;
     color: #6b6b8a;
@@ -1899,29 +1952,29 @@ nav a.active {
     .company-section {
         padding: 50px 30px;
     }
-    
+
     .company-wrapper {
         flex-direction: column;
         gap: 30px;
     }
-    
+
     .company-image {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
+
     .company-image img {
         height: 250px;
     }
-    
+
     .company-content h2 {
         font-size: 28px;
     }
-    
+
     .company-subtext {
         font-size: 14px;
     }
-    
+
     .company-description {
         font-size: 14px;
     }
@@ -1931,27 +1984,27 @@ nav a.active {
     .company-section {
         padding: 40px 20px;
     }
-    
+
     .company-wrapper {
         gap: 20px;
     }
-    
+
     .company-image img {
         height: 200px;
     }
-    
+
     .company-content h2 {
         font-size: 24px;
     }
-    
+
     .company-subtext {
         font-size: 13px;
     }
-    
+
     .company-description {
         font-size: 13px;
     }
-    
+
     .read-more-btn {
         padding: 10px 28px;
         font-size: 13px;
@@ -2083,28 +2136,28 @@ nav a.active {
     .faq-section {
         padding: 50px 30px;
     }
-    
+
     .faq-header h2 {
         font-size: 28px;
     }
-    
+
     .faq-header p {
         font-size: 14px;
     }
-    
+
     .faq-question {
         padding: 12px 0;
     }
-    
+
     .faq-question h3 {
         font-size: 15px;
     }
-    
+
     .faq-answer p {
         padding: 0 0 16px 30px;
         font-size: 14px;
     }
-    
+
     .faq-icon i {
         font-size: 13px;
     }
@@ -2114,29 +2167,29 @@ nav a.active {
     .faq-section {
         padding: 40px 15px;
     }
-    
+
     .faq-header h2 {
         font-size: 24px;
     }
-    
+
     .faq-header p {
         font-size: 13px;
     }
-    
+
     .faq-question {
         padding: 10px 0;
         gap: 12px;
     }
-    
+
     .faq-question h3 {
         font-size: 14px;
     }
-    
+
     .faq-answer p {
         padding: 0 0 14px 25px;
         font-size: 13px;
     }
-    
+
     .faq-icon i {
         font-size: 12px;
     }
@@ -2244,6 +2297,7 @@ nav a.active {
     margin-bottom: 30px;
     letter-spacing: 0.5px;
 }
+
 .contact-detail {
     margin-bottom: 25px;
 }
@@ -2265,18 +2319,20 @@ nav a.active {
     line-height: 1.6;
 }
 
-.number{
+.number {
     color: #0b156e;
 }
+
 .number {
     color: #08086c !important;
 }
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
     .contact-section {
         padding: 60px 30px;
     }
-    
+
     .contact-wrapper {
         gap: 40px;
     }
@@ -2286,21 +2342,21 @@ nav a.active {
     .contact-section {
         padding: 50px 20px;
     }
-    
+
     .contact-wrapper {
         flex-direction: column-reverse;
         gap: 40px;
     }
-    
+
     .contact-info {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
+
     .contact-info h2 {
         font-size: 22px;
     }
-    
+
     .send-btn {
         width: 100%;
         text-align: center;
@@ -2311,37 +2367,37 @@ nav a.active {
     .contact-section {
         padding: 40px 15px;
     }
-    
+
     .contact-wrapper {
         gap: 30px;
     }
-    
+
     .contact-form {
         padding: 20px;
     }
-    
+
     .contact-info h2 {
         font-size: 20px;
     }
-    
+
     .contact-detail h4 {
         font-size: 13px;
     }
-    
+
     .contact-detail p {
         font-size: 13px;
     }
-    
+
     .form-group label {
         font-size: 13px;
     }
-    
+
     .form-group input,
     .form-group textarea {
         padding: 10px 14px;
         font-size: 13px;
     }
-    
+
     .send-btn {
         padding: 12px 30px;
         font-size: 13px;
