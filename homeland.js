@@ -2,7 +2,7 @@
  * Homeland Hero Slider - Property details displayed on image
  */
 
-(function() {
+(function () {
     'use strict';
 
     // Property data
@@ -66,27 +66,27 @@
      */
     function updateProperty(index) {
         const property = properties[index];
-        
+
         // Update background image
         heroSection.style.backgroundImage = `url('${property.image}')`;
-        
+
         // Update tag
         propertyTag.textContent = property.tag;
         propertyTag.className = `property-tag ${property.tagClass}`;
-        
+
         // Update address
         propertyAddress.textContent = property.address;
-        
+
         // Update description
         propertyDescription.textContent = property.description;
-        
+
         // Update price
         if (property.originalPrice) {
             propertyPrice.innerHTML = `${property.price} <span class="original-price">${property.originalPrice}</span>`;
         } else {
             propertyPrice.innerHTML = property.price;
         }
-        
+
         // Add animation
         propertyDetails.style.animation = 'none';
         setTimeout(() => {
@@ -142,7 +142,7 @@
     function handleSwipe() {
         const swipeThreshold = 50;
         const diff = touchStartX - touchEndX;
-        
+
         if (Math.abs(diff) > swipeThreshold) {
             if (diff > 0) {
                 nextProperty();
@@ -167,18 +167,18 @@
 function toggleFAQ(element) {
     // Get the clicked faq-item
     var clickedItem = element.closest('.faq-item');
-    
+
     // Check if clicked item is already active
     var isActive = clickedItem.classList.contains('active');
-    
+
     // Get all faq items
     var allItems = document.querySelectorAll('.faq-item');
-    
+
     // Close all items
-    allItems.forEach(function(item) {
+    allItems.forEach(function (item) {
         item.classList.remove('active');
     });
-    
+
     // If clicked item was not active, open it
     if (!isActive) {
         clickedItem.classList.add('active');
