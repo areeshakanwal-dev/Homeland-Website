@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homeland</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="homeland.css" />
+</head>
+
+<body>
+
+    <!-- ===== HERO SECTION WITH BACKGROUND IMAGE ===== -->
+    <section class="hero-section" id="heroSection">
+        <!-- Navigation -->
+        <header>
+            <div class="logo">Homeland</div>
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="buy.html">Buy</a>
+                <a href="rent.html">Rent</a>
+                <a href="properties.html">Properties</a>
+                <a href="blog.html">Blog</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <!-- Property Details - Centered on Image -->
+        <div class="hero-content">
+            <div class="property-details">
+                <h2 class="property-address" id="propertyAddress0">OUR BLOG</h2>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="arrow-btn left-arrow" id="prevBtn">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button class="arrow-btn right-arrow" id="nextBtn">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </section>
+
+    
+    <!-- ===== PROPERTY CARDS SECTION ===== -->
+    <section class="property-cards-section">
+        <div class="property-cards-container">
+            <!-- Card 1 - SALE & RENT -->
+            <div class="property-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop');">
+                    <div class="card-tags">
+                        <span class="card-tag sale">SALE</span>
+                        <span class="card-tag rent">RENT</span>
+                    </div>
+                    <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-address">625 S. Berendo St</h3>
+                    <p class="card-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        625 S. Berendo St Unit 607 Los Angeles, CA 90005
+                    </p>
+                    <p class="card-price">$2,265,500</p>
+                    <div class="card-details">
+                        <div class="detail-item">
+                            <span class="detail-label">BEDS</span>
+                            <span class="detail-value">2<sup>+</sup></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">BATHS</span>
+                            <span class="detail-value">2</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">SQFT</span>
+                            <span class="detail-value">1,620</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 - SALE & RENT -->
+            <div class="property-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=600&h=400&fit=crop');">
+                    <div class="card-tags">
+                        <span class="card-tag sale">SALE</span>
+                        <span class="card-tag rent">RENT</span>
+                    </div>
+                    <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-address">871 Crenshaw Blvd</h3>
+                    <p class="card-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        1 New York Ave, Warners Bay, NSW 2282
+                    </p>
+                    <p class="card-price">$2,265,500</p>
+                    <div class="card-details">
+                        <div class="detail-item">
+                            <span class="detail-label">BEDS</span>
+                            <span class="detail-value">2<sup>+</sup></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">BATHS</span>
+                            <span class="detail-value">2</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">SQFT</span>
+                            <span class="detail-value">7,000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 - RENT -->
+            <div class="property-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=600&h=400&fit=crop');">
+                    <div class="card-tags">
+                        <span class="card-tag rent">RENT</span>
+                    </div>
+                    <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-address">853 S. Lucerne Blvd</h3>
+                    <p class="card-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        853 S. Lucerne Blvd Unit 101 Los Angeles, CA 90005
+                    </p>
+                    <p class="card-price">$2,265,500</p>
+                    <div class="card-details">
+                        <div class="detail-item">
+                            <span class="detail-label">BEDS</span>
+                            <span class="detail-value">2<sup>+</sup></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">BATHS</span>
+                            <span class="detail-value">2</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">SQFT</span>
+                            <span class="detail-value">5,500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 - SALE & RENT -->
+            <div class="property-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop');">
+                    <div class="card-tags">
+                        <span class="card-tag sale">SALE</span>
+                        <span class="card-tag rent">RENT</span>
+                    </div>
+                    <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-address">9021 Sunset Blvd</h3>
+                    <p class="card-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        9021 Sunset Blvd, Los Angeles, CA 90069
+                    </p>
+                    <p class="card-price">$1,850,000</p>
+                    <div class="card-details">
+                        <div class="detail-item">
+                            <span class="detail-label">BEDS</span>
+                            <span class="detail-value">2<sup>+</sup></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">BATHS</span>
+                            <span class="detail-value">2</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">SQFT</span>
+                            <span class="detail-value">2,100</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 - SALE -->
+            <div class="property-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=600&h=400&fit=crop');">
+                    <div class="card-tags">
+                        <span class="card-tag sale">SALE</span>
+                    </div>
+                    <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-address">12 Bel Air Rd</h3>
+                    <p class="card-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        12 Bel Air Rd, Los Angeles, CA 90077
+                    </p>
+                    <p class="card-price">$4,500,000</p>
+                    <div class="card-details">
+                        <div class="detail-item">
+                            <span class="detail-label">BEDS</span>
+                            <span class="detail-value">2<sup>+</sup></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">BATHS</span>
+                            <span class="detail-value">2</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">SQFT</span>
+                            <span class="detail-value">4,800</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6 - RENT -->
+            <div class="property-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=600&h=400&fit=crop');">
+                    <div class="card-tags">
+                        <span class="card-tag rent">RENT</span>
+                    </div>
+                    <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-address">456 Ocean Ave</h3>
+                    <p class="card-location">
+                        <i class="fa-solid fa-location-dot"></i>
+                        456 Ocean Ave, Santa Monica, CA 90401
+                    </p>
+                    <p class="card-price">$3,200/mo</p>
+                    <div class="card-details">
+                        <div class="detail-item">
+                            <span class="detail-label">BEDS</span>
+                            <span class="detail-value">2<sup>+</sup></span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">BATHS</span>
+                            <span class="detail-value">2</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">SQFT</span>
+                            <span class="detail-value">950</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          
+        </div>
+
+        <!-- ===== PAGINATION ===== -->
+        <div class="pagination">
+            <button class="page-btn active">1</button>
+            <button class="page-btn">2</button>
+            <button class="page-btn">3</button>
+            <button class="page-btn">4</button>
+            <button class="page-btn">5</button>
+            <button class="page-btn-dots">...</button>
+            <button class="page-btn">10</button>
+
+        </div>
+    </section>
+
+
+
+    
+    <!-- ===== FOOTER SECTION ===== -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <!-- Column 1 - ABOUT HOMELAND -->
+                <div class="footer-col">
+                    <h3>ABOUT HOMELAND</h3>
+                    <div class="heading-line"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur<br>
+                        adipisicing elit. Saepe pariatur reprehenderit<br>
+                        vero atque, consequatur id ratione, et non<br>
+                        dignissimos culpa? Ut veritatis, quos illum totam<br>
+                        quis blanditiis, minima minus odio!</p>
+                </div>
+
+                <!-- Column 2 - NAVIGATIONS -->
+                <div class="footer-col">
+                    <h3>NAVIGATIONS</h3>
+                    <div class="heading-line"></div>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Buy</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Rent</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Properties</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 - FOLLOW US -->
+                <div class="footer-col">
+                    <h3>FOLLOW US</h3>
+                    <div class="heading-line"></div>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2026 All rights reserved | This template is made with <i
+                        class="fa-solid fa-heart"></i> by Colorlib</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="homeland.js"></script>
+</body>
+
+</html>
