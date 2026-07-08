@@ -53,7 +53,16 @@ header {
     color: #ffffff;
     letter-spacing: -0.5px;
 }
-
+.logo::after {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #e76f51;
+    border-radius: 0px;
+    margin-left: 2px;
+    flex-shrink: 0;
+}
 nav {
     display: flex;
     gap: 35px;
@@ -196,23 +205,23 @@ nav a.active {
     z-index: 10;
     width: 55px;
     height: 55px;
-    border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    background: rgba(0, 0, 0, 0.6);
+    border-radius: 0%;
+    border: none;
+    background: rgba(0, 0, 0, 0.1);
     color: #ffffff;
-    font-size: 22px;
+    font-size: 20px;
     cursor: pointer;
     transition: 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(1px);
 }
 
 .arrow-btn:hover {
     background: rgba(0, 0, 0, 0.9);
     border-color: rgba(255, 255, 255, 0.8);
-    transform: translateY(-50%) scale(1.1);
+    /* transform: translateY(-50%) scale(1.1); */
 }
 
 .arrow-btn.left-arrow {
@@ -705,7 +714,7 @@ nav a.active {
 /* ===== INDIVIDUAL PROPERTY CARD ===== */
 .property-card {
     background: #ffffff;
-    border-radius: 16px;
+    border-radius: 1px;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
     transition: 0.3s;
