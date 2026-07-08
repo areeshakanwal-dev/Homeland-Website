@@ -81,12 +81,12 @@ nav a:hover {
     opacity: 1;
     color: #e76f51;
 }
-
-nav a.active {
+ 
+nav a.orange {
     opacity: 1;
     color: #e76f51;
     font-weight: 600;
-}
+} 
 
 /* ===== HERO CONTENT - Centered on Image ===== */
 .hero-content {
