@@ -2412,3 +2412,269 @@ nav a.orange {
         font-size: 13px;
     }
 }
+/* ===== RESET & BASE ===== */
+/* ===== DROPDOWN MENU ===== */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-trigger {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+    opacity: 0.8;
+    padding: 5px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.dropdown-trigger:hover {
+    opacity: 1;
+    color: #e76f51;
+}
+
+.dropdown-trigger i {
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-trigger i {
+    transform: rotate(180deg);
+}
+
+/* Dropdown Menu - White background, black text */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    background: #ffffff;
+    border-radius: 1px;
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+    z-index: 999;
+    pointer-events: none;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+/* Invisible bridge */
+.dropdown::after {
+    content: '';
+    position: absolute;
+    top: 90%;
+    left: 0;
+    right: 0;
+    height: 20px;
+    z-index: 1000;
+    background: transparent;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 24px;
+    color: #1a1a2e;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    background: transparent;
+    cursor: pointer;
+}
+
+.dropdown-menu a:hover {
+    background: #e76f51;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+/* ===== NESTED DROPDOWN ===== */
+.nested-dropdown {
+    position: relative;
+}
+
+.nested-trigger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 24px;
+    color: #1a1a2e;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: transparent;
+}
+
+.nested-trigger:hover {
+    background: #e76f51;
+    color: #ffffff;
+}
+
+.nested-trigger i {
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.nested-dropdown:hover .nested-trigger i {
+    transform: rotate(180deg);
+}
+
+.nested-dropdown:hover .nested-trigger {
+    background: #e76f51;
+    color: #ffffff;
+}
+
+/* Nested Menu - White background, black text */
+.nested-menu {
+    position: absolute;
+    top: -8px;
+    left: 100%;
+    min-width: 160px;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.nested-dropdown:hover .nested-menu,
+.nested-menu:hover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+/* Invisible bridge for nested */
+.nested-dropdown::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 95%;
+    width: 20px;
+    height: 100%;
+    z-index: 1000;
+    background: transparent;
+}
+
+.nested-menu a {
+    display: block;
+    padding: 10px 24px;
+    color: #1a1a2e;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nested-menu a:hover {
+    background: #e76f51;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+/* ===== RESPONSIVE DROPDOWN ===== */
+@media (max-width: 768px) {
+    .dropdown::after,
+    .nested-dropdown::after {
+        display: none;
+    }
+
+    .dropdown-menu {
+        position: static;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+        background: transparent;
+        box-shadow: none;
+        padding-left: 20px;
+        display: none;
+        pointer-events: auto !important;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu:hover {
+        display: block;
+    }
+
+    .nested-menu {
+        position: static;
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: none !important;
+        background: transparent;
+        box-shadow: none;
+        padding-left: 20px;
+        display: none;
+        pointer-events: auto !important;
+    }
+
+    .nested-dropdown:hover .nested-menu {
+        display: block;
+    }
+
+    .nested-menu:hover {
+        display: block;
+    }
+
+    .dropdown-menu a,
+    .nested-trigger,
+    .nested-menu a {
+        color: #1a1a2e;
+        padding: 6px 0;
+    }
+
+    .dropdown-menu a:hover {
+        background: transparent;
+        color: #e76f51;
+        padding-left: 10px;
+    }
+
+    .nested-trigger:hover {
+        background: transparent;
+        color: #e76f51;
+    }
+
+    .nested-menu a:hover {
+        background: transparent;
+        color: #e76f51;
+        padding-left: 10px;
+    }
+
+    .dropdown-trigger i {
+        transform: none !important;
+    }
+
+    .nested-trigger i {
+        transform: none !important;
+    }
+}

@@ -184,3 +184,26 @@ function toggleFAQ(element) {
         clickedItem.classList.add('active');
     }
 }
+/**
+ * Dropdown Menu - Click functionality for options
+ */
+
+document.addEventListener('DOMContentLoaded', function() {
+    
+    // Get all dropdown links
+    var dropdownLinks = document.querySelectorAll('.dropdown-link, .nested-link');
+    
+    // Add click event to each link
+    dropdownLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            var optionName = this.textContent.trim();
+            console.log('You clicked on: ' + optionName);
+            // You can replace with actual navigation
+            // window.location.href = this.getAttribute('href');
+        });
+    });
+    
+    console.log('✅ Dropdown menu initialized!');
+    
+});
