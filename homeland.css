@@ -79,14 +79,15 @@ nav a {
 
 nav a:hover {
     opacity: 1;
-    color: #e76f51;
+    color: white;
 }
  
 nav a.orange {
     opacity: 1;
-    color: #e76f51;
+    color: white;
     font-weight: 600;
 } 
+
 
 /* ===== HERO CONTENT - Centered on Image ===== */
 .hero-content {
@@ -2426,7 +2427,7 @@ nav a.orange {
     font-weight: 500;
     transition: 0.3s;
     opacity: 0.8;
-    padding: 5px 0;
+    padding: 0px 0;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -2435,7 +2436,7 @@ nav a.orange {
 
 .dropdown-trigger:hover {
     opacity: 1;
-    color: #e76f51;
+    color: white;
 }
 
 .dropdown-trigger i {
@@ -2600,7 +2601,7 @@ nav a.orange {
 }
 
 /* ===== RESPONSIVE DROPDOWN ===== */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .dropdown::after,
     .nested-dropdown::after {
         display: none;
@@ -2677,4 +2678,4 @@ nav a.orange {
     .nested-trigger i {
         transform: none !important;
     }
-}
+} */
